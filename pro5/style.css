@@ -1,0 +1,11 @@
+/* all universel css start*/
+
+li::marker{
+    color: red;
+}
+ul li a{
+    color: black;
+}
+
+/* all universel css end */
+

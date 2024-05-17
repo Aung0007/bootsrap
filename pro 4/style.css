@@ -1,0 +1,144 @@
+
+/* nav bar start */
+.main-navbar{
+    margin: 80px;
+    margin-top: 10px;
+}
+.nav-list{
+  
+    margin-left: 100px;
+}
+.nav-list a{
+    margin-right: 20px;
+}
+.logo img{
+    height: 40px;
+    width: 40px;
+}
+.logo-text{
+    margin-top: 10px;
+    margin-left: -10px;
+}
+.lan{
+    margin-top: 15px;
+   margin-left: 40px;
+}
+.button{
+    border-radius: 50px;
+    width: 90px;
+    background: none;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+   
+}
+select{
+    border: none;
+    background-color: none
+    ;
+}
+
+/* nav bar end */
+/* heading start */
+.heading{
+    margin: 80px;
+}
+option{
+    background-color:none;
+}
+
+/* heading end */
+
+/* market start */
+.market{
+    margin: 80px;
+}
+span{
+    color: aquamarine;
+}
+.icon-cercal{
+    height: 200px;
+    width: 200px;
+  border: 3px solid silver;
+    margin: auto;
+    border-radius: 50%;
+    text-align: center;
+}
+.big-icon i{
+    font-size: 140px;
+    margin-top: 30px;
+    color: aquamarine;
+}
+/*  market end */
+/* about-start */
+.about{
+    margin: 80px;
+}
+p a{
+    text-decoration: none;
+    color: black;
+}
+.about-img img{
+    height: 300px;
+    width: 400px;
+   
+}
+.about-img{
+    margin-right: -50px;
+}
+.all-write{
+    margin-top: 40px;
+}
+.about-2{
+    margin-top: 50px;
+}
+/* about-end */
+
+/* download-info start */
+.first-img{
+    margin-left: 220px;
+}
+.second-img{
+    margin-top: -200px;
+    margin-left: 350px;
+}
+/* download-info end */
+/* signup start */
+
+input{
+    width: 260px;
+}
+
+/* signup end */
+/* footer start */
+ul a{
+    text-decoration: none;
+    color: black;
+}
+.social a{
+    margin-left: 20px;
+}
+/* footer end */
+/* responsive web code start */
+
+body{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 1em;
+}
+
+/* responsive web code end */
+/* scroll bar start */
+
+::-webkit-scrollbar{
+    width: 15px;    
+}
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(
+        #83a4d4
+        , 
+        #b6fbff);
+  
+}
+/* scroll bar end */

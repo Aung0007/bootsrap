@@ -1,0 +1,277 @@
+/* navigation start */
+/* logo and search start */
+.logo-find-bar{
+    margin: 30px;
+   
+}
+.search-bar{
+    float: right;
+    margin-top: -50px;
+}
+/* logo and search end */
+
+/* option start */
+.option-bar a{
+    margin-left: 40px;
+}
+.option-bar a:hover {
+  color: rgb(0, 0, 0);
+  border-bottom: 1px solid red;
+}
+/* option end */
+/* navigation end */
+
+/* news type start */
+/* type of img 1 start */
+.main-div-img1{
+    margin-left: 40px;
+    margin-top: 60px;
+}
+.under-text{
+    width: 650px;
+    margin-top: -90px;
+    color: white;
+ 
+   background-color: black;
+   opacity: 50%;
+}
+
+.for-img1 {
+   background-image: url('village-8501168_1280.webp');
+   height: 350px;
+   width: 650px;
+}
+/* type of img 1 end */
+/* type of img 2 start */
+.main-div-img2{
+    background-image: url('village-8501168_1280.webp');
+    height: 200px;
+    width: 460px;
+    float: right;
+    margin-right: 60px;
+    margin-top: -330px;
+}
+
+.under-text2{
+    width: 450px;
+    margin-top: -227px;
+   margin-right: 60px;
+   margin-left: -50px;
+    color: white;
+   float: right;
+   background-color: black;
+   opacity: 50%;
+}
+/* type of img 2 end */
+/* type of img 3 and 4 start */
+.mid-img1{
+    background-image: url('village-8501168_1280.webp');
+    height: 120px;
+    width: 250px;
+    float:right;
+    margin-right: 270px;
+    margin-top: -100px;
+}
+.text3{
+   width: 250px;
+
+   font-size: 10px;
+   color: white;
+   float: right;
+   margin-right: -252px;
+   margin-top: -40px;
+
+  
+}
+
+.mid-img2{
+    background-image: url('village-8501168_1280.webp');
+    height: 120px;
+    width: 200px;
+    float: right;
+    margin-right: -460px;
+    margin-top: -100px;
+}
+.text4{
+    width: 200px;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    float: right;
+   margin-right: -470px;
+   margin-top: -100px;
+ 
+}
+/* type of img 3 and 4 end */
+/* news type end */
+
+/* catagoric start */
+.main-link{
+    margin-top: 70px;
+    
+}
+.main-link a{
+    margin-left: 200px;
+}
+.active{
+    margin-left: -200px;
+   
+}
+.active a:hover{
+    border-color: 1px solid red;
+}
+.popular{
+   margin-left:80px ;
+}
+.connet{
+    margin-left: 120px;
+}
+/* catagoric end */
+
+/* catagoric theam start */
+.theam{
+  margin-left: 50px;
+}
+.main-theams{
+    width: 1200px;
+   
+}
+.img-main img{
+    height: 220px;
+    margin-top: 5px;
+    width: 280px;
+}
+/* catagoric them end */
+
+/* featued video start */
+.video{
+    margin-left: -30px;
+    margin-top: 10px;
+}
+li a{
+    text-decoration: none;
+}
+hr{
+    border: 1px solid red;
+}
+/* featued video end */
+/* reviwe start */
+
+.reviwe{
+    margin-left: -60px;
+}
+i {
+    color: gold;
+    text-decoration: none;
+}
+p a {
+    text-decoration: none; 
+    color: red;
+}
+/* reviwe end*/
+/* best reviwe  catagoric start */
+
+.reviwe img{
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+}
+h5 a{
+    text-decoration: none;
+    color: red;
+}
+.best-reviwe{
+    margin-left: 60px;
+}
+.write{
+    margin-right: -200px;
+}
+/* best reviwe catagoric end */
+
+/* main-div-for-M-H start */
+.main-div-for-M-H{
+    margin-top: -1800px;
+    margin-left: 48px;
+  
+}
+.list-img img{
+    height: 200px;
+}
+
+/* main-div-for-M-H end */
+/* footer calender start */
+ul {list-style-type: none;}
+body {font-family: Verdana, sans-serif;}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+
+/* footer calender end */
